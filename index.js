@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.port || 5000;
 
 let mongoose = require("mongoose");
-let dotenv = require("dotenv");
+// let dotenv = require("dotenv");
 // dotenv.config();
 app.use(express.json());
 
